@@ -1,0 +1,125 @@
+/*
+.container-fluid{
+    background-color: aliceblue;
+    height: 5rem;
+}
+
+.row{
+     background-color:salmon;
+     height: 4.7rem;
+}
+[class*="col-"]{
+    background-color:antiquewhite;
+    height: 4.2rem;
+    border: 2px solid rgba(0,0,0,0.3);
+    
+}*/
+
+body.sign-in{
+     background-color: black;
+    background-image: url(000.jpg);
+     background-size:cover;
+    background-repeat: no-repeat;
+}
+.container.signcontainer{
+    margin-top: 8%;
+    margin-right: 40%;
+    padding-right: 20%;
+}
+.card.signcard{
+    background-image: url(preview16.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    padding: 40px 0px 20px;
+    background-color:white;
+-webkit-box-shadow: 0px 0px 22px 0px rgba(235,228,235,1);
+-moz-box-shadow: 0px 0px 22px 0px rgba(235,228,235,1);
+box-shadow: 0px 0px 22px 0px rgba(235,228,235,1);
+
+}
+img.signimg {
+    padding: 0 2rem 2rem;
+    margin: auto;
+    display: block;
+    width: 30%;
+}
+form.signform{
+    max-width: 350px;
+    margin: auto;
+}
+button.b-1{
+    color: white;
+    width: 100%;
+    background-color: black;
+    
+}
+#x{
+    margin:10px;
+}
+#aa{
+    color: black;
+}
+#ab{
+    color:salmon;
+    font-size: 20px;
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    text-decoration:none;
+}
+@media screen and (max-width:680px)
+{     
+    body.sign-in
+    {
+     background-size:contain;
+     background-repeat:repeat-y;
+        
+    }
+    .container.signcontainer{
+        margin-top:70px;
+        margin-bottom: 100px;
+        margin-left: 40px;
+        margin-right: 80px;
+        width:80%;
+        height: 80%;
+    }
+   
+img.signimg {
+    width: 60%;
+}
+
+    
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
